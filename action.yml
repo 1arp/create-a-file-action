@@ -1,0 +1,16 @@
+name: 'Create A File'
+description: 'Create a file'
+inputs:
+  path:
+    description: 'Path from root where file is to be created'
+    required: true
+    default: ''
+  file:
+    description: ''
+    required: true
+  content:
+    description: ''
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

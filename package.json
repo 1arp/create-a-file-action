@@ -1,0 +1,11 @@
+{
+  "name": "create-a-file-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1arp/create-a-file-action.git",
+  "author": "1arp <dekhijaegi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.5"
+  }
+}
