@@ -2,15 +2,16 @@ name: 'Create A File'
 description: 'Create a file'
 inputs:
   path:
-    description: 'Path from root where file is to be created'
+    description: 'Path from cwd where file is to be created'
     required: true
     default: ''
   file:
-    description: ''
+    description: 'The name of the file to be created with extention'
     required: true
   content:
-    description: ''
+    description: 'The content of the file'
     required: true
+    default: ''
 runs:
   using: 'node12'
   main: 'index.js'
