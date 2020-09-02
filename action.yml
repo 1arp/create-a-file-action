@@ -1,5 +1,8 @@
 name: 'Create A File'
 description: 'Create a file'
+branding:
+  icon: 'file'  
+  color: 'green'
 inputs:
   path:
     description: 'Path from cwd where file is to be created'
