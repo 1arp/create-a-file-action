@@ -17,7 +17,7 @@ Name of the file with extention
 with:
     content: value
 ```
-Conteng of the file (default: empty)
+Content of the file (default: empty)
 
 ## Example Usage
 
