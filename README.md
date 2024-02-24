@@ -6,6 +6,12 @@ with:
     path: value
 ```
 Path where you want to create the file relative to the cwd (default: root of your repository)
+## isAbsolutepath ( optional )
+```yaml
+with:
+    isAbsolutepath: boolean
+```
+If the path provided is an absolute path (default: false)
 ## file
 ```yaml
 with:
@@ -37,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: 1arp/create-a-file-action@0.3
+      - uses: 1arp/create-a-file-action@0.4
         with:
           path: 'src'
           file: 'foo.bar'

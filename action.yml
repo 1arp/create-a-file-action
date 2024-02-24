@@ -8,6 +8,10 @@ inputs:
     description: 'Path from cwd where file is to be created'
     required: true
     default: ''
+  isAbsolutePath:
+    description: 'If the path provided is an absolute path'
+    required: false
+    default: false
   file:
     description: 'The name of the file to be created with extention'
     required: true
