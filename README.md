@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: 1arp/create-a-file-action@0.3
+      - uses: 1arp/create-a-file-action@0.4
         with:
           path: 'src'
           file: 'foo.bar'
