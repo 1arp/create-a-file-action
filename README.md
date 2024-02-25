@@ -6,10 +6,10 @@ with:
     path: value
 ```
 Path where you want to create the file relative to the cwd (default: root of your repository)
-## isAbsolutepath ( optional )
+## isAbsolutePath ( optional )
 ```yaml
 with:
-    isAbsolutepath: boolean
+    isAbsolutePath: boolean
 ```
 If the path provided is an absolute path (default: false)
 ## file
@@ -46,6 +46,7 @@ jobs:
       - uses: 1arp/create-a-file-action@0.4.2
         with:
           path: 'src'
+          isAbsolutePath: false
           file: 'foo.bar'
           content: |
             Hello
