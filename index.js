@@ -5,7 +5,7 @@ const path = require('path');
 async function createFile (){
   try{
     const filePath = core.getInput('path');
-    const isAbsolutePath = core.getInput('isAbsolutePath');
+    const isAbsolutePath = core.getBooleanInput('isAbsolutePath');
     const file = core.getInput('file')
     const content = core.getInput('content')
     const absolutePath = isAbsolutePath ? filePath : path.join(process.cwd(),filePath);
