@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: 1arp/create-a-file-action@0.4.4
+      - uses: 1arp/create-a-file-action@0.4.5
         with:
           path: 'src'
           isAbsolutePath: false
