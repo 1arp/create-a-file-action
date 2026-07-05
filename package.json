@@ -7,5 +7,11 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.1"
+  },
+  "scripts": {
+    "build": "esbuild index.js --bundle --platform=node --target=node24 --outfile=dist/index.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
   }
 }
